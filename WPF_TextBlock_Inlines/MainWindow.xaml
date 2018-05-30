@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPF_TextBlock_Inlines.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_TextBlock_Inlines"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock x:Name="txbl1" VerticalAlignment="Top" Foreground="Chocolate">
+            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="www.google.com">www.howkteam.com </Hyperlink>
+            - <Bold><Underline>Free Education</Underline></Bold>
+            - <Bold><Italic>Share to be better</Italic></Bold>
+            - <Span FontFamily="Arial" FontSize="20" Foreground="Purple">K9</Span>
+        </TextBlock>
+
+        <TextBlock x:Name="txbl2" VerticalAlignment="Bottom" TextTrimming="WordEllipsis">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur lacus augue, malesuada nec, lobortis nec, interdum id, metus. Vestibulum mattis arcu nec dolor. Duis sit amet ligula a risus varius congue. Donec gravida iaculis justo. Donec orci.
+        </TextBlock>
+
+        <TextBlock x:Name="txbl3" VerticalAlignment="Center">
+            
+        </TextBlock>
+    </Grid>
+</Window>
