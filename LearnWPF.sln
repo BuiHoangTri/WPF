@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_TextBlock_Inlines", "WP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Button", "WPF_Button\WPF_Button.csproj", "{BEFB6E13-FEE0-4E6F-AC0D-1966B9A55E4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Textbox", "WPF_Textbox\WPF_Textbox.csproj", "{67745D11-352D-4036-8A8D-EB28AFB153E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BEFB6E13-FEE0-4E6F-AC0D-1966B9A55E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEFB6E13-FEE0-4E6F-AC0D-1966B9A55E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEFB6E13-FEE0-4E6F-AC0D-1966B9A55E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67745D11-352D-4036-8A8D-EB28AFB153E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67745D11-352D-4036-8A8D-EB28AFB153E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67745D11-352D-4036-8A8D-EB28AFB153E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67745D11-352D-4036-8A8D-EB28AFB153E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
