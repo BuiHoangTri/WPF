@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Button", "WPF_Button\WP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Textbox", "WPF_Textbox\WPF_Textbox.csproj", "{67745D11-352D-4036-8A8D-EB28AFB153E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Binding", "WPF_Binding\WPF_Binding.csproj", "{5F104A32-F6EA-4AC3-A401-53962EAFE552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Grid", "WPF_Grid\WPF_Grid.csproj", "{28CB67A8-52D9-4F6C-B5FA-99A9A155D188}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{67745D11-352D-4036-8A8D-EB28AFB153E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67745D11-352D-4036-8A8D-EB28AFB153E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67745D11-352D-4036-8A8D-EB28AFB153E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F104A32-F6EA-4AC3-A401-53962EAFE552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F104A32-F6EA-4AC3-A401-53962EAFE552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F104A32-F6EA-4AC3-A401-53962EAFE552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F104A32-F6EA-4AC3-A401-53962EAFE552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CB67A8-52D9-4F6C-B5FA-99A9A155D188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CB67A8-52D9-4F6C-B5FA-99A9A155D188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CB67A8-52D9-4F6C-B5FA-99A9A155D188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CB67A8-52D9-4F6C-B5FA-99A9A155D188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
